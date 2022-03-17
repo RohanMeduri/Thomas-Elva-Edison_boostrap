@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+#Welcome{
+    color:white;
+    bottom:0;
+    display:table;
+    width:100%;
+    height:100%;
+    opacity:0.83;
+    background:linear-gradient(#29f2f2 0%, #177575 100%);
+    z-index: 9;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: inherit;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+p{
+    font-size: 17px;
+    max-width: 450px;
+    line-height: 1.3;
+    margin: 25px auto;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: #000;
+}
+a{
+    text-decoration: none; 
+    color: blue;
+    text-shadow: 2px 2px gainsboro;
+}
+.article:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#Contact{
+    background: firebrick;
+}
+.Contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.Contact_1 h3{
+    display: inline;
+}
+#Contact iframe{
+    width: 100%;
+}
+.my_menu {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
